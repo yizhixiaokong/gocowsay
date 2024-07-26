@@ -8,3 +8,5 @@
 
 - [https://github.com/jesslam948/gophersay](https://github.com/jesslam948/gophersay)
 - [Building a CLI command with Go: cowsay](https://flaviocopes.com/go-tutorial-cowsay/)
+
+[![asciicast](https://asciinema.org/a/8Ys75reg1PUkGEoc1PQXYtPcr.svg)](https://asciinema.org/a/8Ys75reg1PUkGEoc1PQXYtPcr)
