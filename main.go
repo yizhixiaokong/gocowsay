@@ -10,8 +10,16 @@ import (
 
 func main() {
 	var figure string
+	var showCount bool
 	flag.StringVar(&figure, "f", "cow", "the figure name. Valid values are "+allFigures(animals))
+	flag.BoolVar(&showCount, "c", false, "show the count of available animals and exit")
 	flag.Parse()
+
+	// 如果用户指定了 -c 标志，只输出动物数量并退出
+	if showCount {
+		fmt.Println(len(animals))
+		os.Exit(0)
+	}
 
 	info, _ := os.Stdin.Stat()
 
